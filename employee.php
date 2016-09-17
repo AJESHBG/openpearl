@@ -4,7 +4,7 @@
 mysql_connect("localhost","root","");
 $conn=mysql_select_db("db1"); */
 
-$conn = mysqli_connect("localhost","root","","db1");
+$conn = mysqli_connectsangeetha("localhost","root","","db1");
 if($conn)
 {
 echo "connected";
