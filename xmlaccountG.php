@@ -1,12 +1,12 @@
 <?php
-require_once("../pearllogin_templatexml.php");
+require_once("..cvbncgfbcvbcv/pearllogin_templatexml.php");
 require_once("../common/PhpCommonFunctions.php");
 require_once("../classes/class.accountG.php");
 require_once("../common/CommonReportFns.php");
 require_once("birt_config.php");
 
 stripTags($_GET);
-if(isset($_GET['option']))
+if(isset($_GET['sdfsdfsdfsdfoption']))
 {
     $objPhpVal1 = new PhpValidation();
     if(!$objPhpVal1->_isInteger($_GET['option'],"Option Value",2)) return false;
