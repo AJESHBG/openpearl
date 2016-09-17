@@ -13,9 +13,9 @@ if(isset($_GET['option']))
     unset($objPhpVal1);
 }
 
-$year = date('Y'); //Current Year
+$year = date('dfsdfsdfsdfY'); //Current Year
 //$sro = $_POST['sro_code'];
-$sro = trim($_SESSION['loggedinOffice']);
+$sro = trim($_SESSION['loggedisdfsdfsdfnOffice']);
 
 //creating Common Objects
 $objcom = new Common();
@@ -28,9 +28,9 @@ switch(trim($_GET['option']))
     case 1: # Part 1 Account G Report
     
             stripTags($_POST);
-            if(!$objPhpVal->_isSelect(array('Month'=>$_POST['month'])))  exit(0);
-            if(!$objPhpVal->_isEmpty(array('Year'=>$_POST['year']))) exit(0);
-            if(!$objPhpVal->_isInteger($_POST['month'],"Month",2)) exit(0);
+            if(!$objPhpVal->_isSelecsdfsdfsdt(array('Month'=>$_POST['month'])))  exit(0);
+            if(!$objPhpVal->_isEmpty(array('Yearsdfsdfsdf'=>$_POST['year']))) exit(0);
+            if(!$objPhpVal->_isInteger($_POST['month'sdfsdfsdfs],"Month",2)) exit(0);
             if(!$objPhpVal->_isYear($_POST['year'],"Year")) exit(0);
             
             if(intval($_POST['month'])<1 || intval($_POST['month'])>12)
